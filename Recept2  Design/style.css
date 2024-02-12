@@ -1,0 +1,128 @@
+*{
+    margin: 0; padding: 0;
+     font-family: initial;
+     box-sizing: border-box; 
+  }
+  body{
+    scroll-behavior: smooth;
+      overflow-x: hidden;
+      /* background: red; */
+  }
+  header .images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-right: 5%;
+    align-items: center;
+  }
+  header .images img{
+    width: 300px;
+    height: 100px;
+  }
+  header .column-1{
+    display: flex;
+    justify-content:center;
+     flex-wrap: wrap;
+     align-items: center;
+  }
+ header .column-1 .row-2{
+  margin-left: 15%;
+  }
+
+  /* home style */
+  .home .rows{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .home .rows .row-1{
+    margin-right: 5%;
+  }
+  .home .rows .row-2{
+    margin-left: 5%;
+  }
+  .home .rows .row-1 , .home .rows .row-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  .home .rows .row-1 h4 , .home .rows .row-2 h4{
+    padding: 7px;
+    color: rgb(69, 68, 68);
+  }
+  .home .name{
+    display: flex;
+    margin-left: 32%;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .home .name h4{
+    color: rgb(69, 68, 68);
+  }
+  /* main style */
+  main{
+    margin-top: 15px;
+    margin-bottom: 5%;
+  }
+  main .table-contect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   width: 50%;
+   margin: 0 auto;
+  }
+  main .table-contect table{
+    border-collapse: collapse;
+  }
+  main .table-contect table th ,  main .table-contect table td{
+    padding: 5px 30px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid #000;
+    text-align: left;
+  }
+  main .sub-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-wrap: wrap;
+   width: 50%;
+   margin: 0 auto;
+  }
+  main .sub-total table{
+    border-collapse: collapse;
+    margin-top: 3%;
+    margin-right: 10%;
+  }
+  main .sub-total table th , main .sub-total table td{
+    padding: 5px 30px;
+    text-align: left;
+  
+  }
+  main .sub-total table td{
+  border-bottom: 2px dotted black;
+  font-weight: bolder;
+  color: #434141;
+  }
+/* Footer  style*/
+
+footer .footer-content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 50%;
+   margin: 0 auto;
+   flex-direction: column;
+   margin-bottom: 5%;
+
+}
+footer .footer-content img{
+    /* background: red; */
+    height: 70px;
+    width: 300px;
+}
